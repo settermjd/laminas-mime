@@ -1,19 +1,17 @@
 {
-    "name": "laminas/laminas-mime",
+    "name": "settermjd/laminas-mime",
     "description": "Create and parse MIME messages and parts",
     "license": "BSD-3-Clause",
     "keywords": [
         "laminas",
         "mime"
     ],
-    "homepage": "https://laminas.dev",
+    "homepage": "https://settermjd.github.io/laminas-mime/",
     "support": {
-        "docs": "https://docs.laminas.dev/laminas-mime/",
-        "issues": "https://github.com/laminas/laminas-mime/issues",
-        "source": "https://github.com/laminas/laminas-mime",
-        "rss": "https://github.com/laminas/laminas-mime/releases.atom",
-        "chat": "https://laminas.dev/chat",
-        "forum": "https://discourse.laminas.dev"
+        "docs": "https://settermjd.github.io/laminas-mime/",
+        "issues": "https://github.com/settermjd/laminas-mime/issues",
+        "source": "https://github.com/settermjd/laminas-mime",
+        "rss": "https://github.com/settermjd/laminas-mime/releases.atom"
     },
     "config": {
         "sort-packages": true,
@@ -27,11 +25,11 @@
     },
     "require-dev": {
         "laminas/laminas-coding-standard": "~2.4.0",
-        "laminas/laminas-mail": "^2.19.0",
+        "settermjd/laminas-mail": "^2.19.0",
         "phpunit/phpunit": "~9.5.25"
     },
     "suggest": {
-        "laminas/laminas-mail": "Laminas\\Mail component"
+        "settermjd/laminas-mail": "Laminas\\Mail component"
     },
     "autoload": {
         "psr-4": {
@@ -57,6 +55,7 @@
         "test-coverage": "phpunit --colors=always --coverage-clover clover.xml"
     },
     "conflict": {
+        "laminas/laminas-mime":  "*",
         "zendframework/zend-mime": "*"
     }
 }
